@@ -2,7 +2,7 @@
 
 A multi-page personal portfolio website built with semantic HTML, CSS and vanilla JavaScript.
 
-🌐 **Live site:** [john0487.github.io/html-portfolio](https://john0487.github.io/html-portfolio)
+🌐 **Live site:** [john0487.github.io/html-portfolio](https://John0487.github.io/html-portfolio)
 
 ## Pages
 
