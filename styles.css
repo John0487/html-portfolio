@@ -222,3 +222,35 @@ button[type="submit"] {
 button[type="submit"]:hover {
     background-color: #555;
 }
+
+/* == RESPONSIVE == */
+@media (max-width: 768px){
+
+    /* Header */
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    /* Hero */
+    #hero h1 {
+        font-size: 2rem;
+    }
+
+    /* 3 columnas -> 1 columna */
+    #content {
+        grid-template-columns: 1fr;
+    }
+
+    /* Reviews en 1 columna */
+    #reviews {
+        grid-template-columns: 1fr;
+    }
+
+    /* Formulario */
+    button[type="submit"] {
+        width: 100%;
+    }
+
+}
